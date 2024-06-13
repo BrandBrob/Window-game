@@ -1,0 +1,54 @@
+
+body{
+    background-color: #eee;
+    font-family: "Tiny5" ;
+    color:#333;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-points__div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section__div-but{
+    border: none;
+    min-width: 100px;
+    min-height: 100px;
+    background-color: #ff2200;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.section__div-but:hover {
+    background-color: tomato; /* Nuevo color de fondo al hacer hover */
+    transform: scale(1.1); /* Escalado al hacer hover */
+}
+.section__divpuntos-but{
+    border: none;
+    min-width: 100px;
+    min-height: 100px;
+    background-color: blue;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.section__divpuntos-but:hover {
+    background-color: lightskyblue; /* Nuevo color de fondo al hacer hover */
+    transform: scale(1.1); /* Escalado al hacer hover */
+}
+.btn-cerrar{
+    font-family: "Tiny5";
+    border: none;
+    background-color: #ccc;
+}
+#btn-lose{
+    background-color:transparent;
+    border: none;
+}

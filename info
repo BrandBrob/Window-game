@@ -1,0 +1,5 @@
+Es una pagina en donde controlaras 4 paginas para ganar un juego, cada determinado tiempo aparecera un boton rojo en una de las cuatro paginas
+y lo tendras que clickear si no pierdes, como lo harias manejando el objeto window?
+como haria para hacer que cada boton aparezca aleatoriamente en cada pagina?
+pueden aparecer varios botones
+digamos que todos los botones tienen un temporizador de 10 segundos aleatorio
